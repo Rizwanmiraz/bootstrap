@@ -1,3 +1,99 @@
-.container h1{
-    color: red;
+body{
+    background-color: rgb(22, 2, 2);
+}
+
+.small-menu{
+    display: flex;
+    justify-content: center;
+}
+.small-menu ul{
+    padding-top: 15px;
+}
+.small-menu ul li{
+     list-style:none ;
+     padding: 28px 22px;
+
+     
+     
+}
+.small-menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: tahoma;
+    color:#fff;
+    
+    padding: 20px;
+    transition: .2s;
+    
+    
+
+    
+}
+.small-menu ul li a:hover{
+    border-bottom: 2px solid red;
+    background-color: cadetblue;
+}
+
+.small-menu ul{
+    display: flex;
+}
+.logo h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+  
+    
+}
+.body-content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.body-content h1{
+    font-size: 50px;
+    color: #fff;
+    font-family: tahoma;
+    
+    
+}
+.body-content p{
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 200;
+    width: 50%;
+    margin:20px auto;
+
+
+
+
+}
+.body-content a.read-more{
+    text-decoration: none;
+    background-color: #fff;
+    color: cadetblue;
+    padding: 14px 25px;
+    font-family: tahoma;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 7px;
+
+}
+.fotter-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 125px;
+
+}
+.fotter-content p{
+    color: #fff;
+    font-family: tahoma;
+    color:#fff;
+}
+.fotter-content p a{
+    color: cyan;
 }
